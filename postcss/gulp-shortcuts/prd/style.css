@@ -1,0 +1,56 @@
+/*顶部加上一个语法是 @alias {...} 。 然后在 @规则内通过添加 alias-name: property-name; 设置你的别名*/
+
+.set_border {
+    border-size: 1px;
+    border-style: solid;
+    border-color: #ccc;
+}
+
+
+/*大量的属性速记*/
+.crip_shorthand {
+    margin-top: 1rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 4rem;
+}
+
+/*创建一个圆，使用的语法 circle: size color;*/
+.circle {
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    background-color: #c00;
+}
+
+/*创建三角形*/
+.isosceles-triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 4rem 0 4rem 7rem;
+    border-left-color: #c00;
+}
+
+/*设置链接样式*/
+
+a {
+    color: #4D9ACC
+}
+
+a:visited {
+    color: #4D9ACC;
+}
+
+a:focus {
+    color: #4D9ACC;
+}
+
+a:hover {
+    color: #5BB8F4;
+}
+
+a:active {
+    color: #4D9ACC;
+}

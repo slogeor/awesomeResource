@@ -1,0 +1,24 @@
+{
+  "name": "gulpbrowser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.5.0",
+    "pixrem": "^3.0.2",
+    "postcss-color-rgba-fallback": "^2.2.0",
+    "postcss-opacity": "^4.0.0",
+    "postcss-pseudoelements": "^3.0.0",
+    "postcss-vmin": "^2.0.0",
+    "postcss-will-change": "^1.1.0"
+  }
+}

@@ -1,0 +1,21 @@
+/*import*/
+
+@import "./common.css";
+
+
+/* Autoprefixer*/
+.animateThis {
+    animation: animationExample 2s;
+    display: flex;
+}
+
+/*postcss-color-rgba-fallback*/
+
+.rgbaFallback {
+    background: rgba(0,0,0,0.5);
+}
+
+/* postcss-opacity */
+.opacityFallback {
+    opacity: 0.5;
+}

@@ -1,0 +1,1 @@
+body{font-size:12px;background-color:#eee}.animateThis{animation:animationExample 2s;display:flex}.rgbaFallback{background:#000;background:rgba(0,0,0,.5)}.opacityFallback{-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";opacity:.5}
